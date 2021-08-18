@@ -9,7 +9,7 @@ let basePath = ''
 
 
 // api接口方法存放目录
-const API_PATH = path.resolve(__dirname, '../../../src/service')
+const API_PATH = path.resolve(__dirname, '../../src/service')
 
 // 初始化api文件
 let fileData = 'import { get, post } from \'./http\'\nexport default {\n'
