@@ -7,6 +7,11 @@ const swaggerUrl = './swagger.json'
 // 基础路径
 let basePath = ''
 
+// 创建根目录
+const ROOT_PATH = path.resolve(__dirname, '../../src')
+if(!fs.existsSync(ROOT_PATH + '/service')) {
+	fs.mkdirSync(ROOT_PATH + '/service')
+}
 
 // api接口方法存放目录
 const API_PATH = path.resolve(__dirname, '../../src/service')

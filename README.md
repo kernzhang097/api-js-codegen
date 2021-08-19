@@ -10,9 +10,10 @@
 
     "apigen": "node ./node_modules/api-js-codegen/apigen.js"
 
-4、 在src/service目录下创建http.js，封装好axios，并export出post、get方法
+4、 执行npm run apigen命令，会在src/service目录下生成api.js
 
-5、 执行npm run apigen命令，会在src/service目录下生成api.js
+5、 在src/service目录下创建http.js，封装好axios，并export出post、get方法
+
 
 
 
